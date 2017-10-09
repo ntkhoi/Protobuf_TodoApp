@@ -1,0 +1,12 @@
+{
+    "name": "A sample protobuf",
+    "description": "A sample Protobuf",
+    "keywords": [
+      "flask",
+      "python",
+      "sample"
+    ],
+    "addons": [
+      "heroku-postgresql"
+    ]
+  }
