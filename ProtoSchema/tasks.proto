@@ -1,0 +1,10 @@
+syntax = "proto3";
+import "data.proto";
+
+
+message TasksResponse {
+    repeated Task tasks = 1;
+}
+
+
+

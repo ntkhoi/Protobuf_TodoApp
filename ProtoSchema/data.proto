@@ -1,0 +1,18 @@
+syntax = "proto3";
+import "user.proto";
+
+
+enum STATUS {
+  TODO = 0;
+  DOING = 1;
+  DONE = 2;
+  INTESTING = 3;
+}
+
+message Task {
+  int32 id = 1;
+  string name = 2;
+  STATUS status = 3;
+  User assignee = 4;
+}
+
