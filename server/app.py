@@ -10,6 +10,7 @@ app = Flask(__name__)
 def log_in(): 
     admin_user =  admin()
     user_dict = request.args
+    print user_dict
     user = user_pb2.User()
     user.user_name = user_dict["name"]
     user.password = user_dict["password"]
