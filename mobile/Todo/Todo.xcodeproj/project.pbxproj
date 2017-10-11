@@ -17,6 +17,8 @@
 		DAADA3351F8D13DD007D0E7C /* tasks.pb.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAADA3321F8D13DD007D0E7C /* tasks.pb.swift */; };
 		DAADA3361F8D13DD007D0E7C /* data.pb.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAADA3331F8D13DD007D0E7C /* data.pb.swift */; };
 		DAADA3371F8D13DD007D0E7C /* user.pb.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAADA3341F8D13DD007D0E7C /* user.pb.swift */; };
+		DAADA3391F8DCC55007D0E7C /* TasksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAADA3381F8DCC54007D0E7C /* TasksViewController.swift */; };
+		DAADA33C1F8DD1B8007D0E7C /* TaskCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAADA33B1F8DD1B8007D0E7C /* TaskCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +36,8 @@
 		DAADA3321F8D13DD007D0E7C /* tasks.pb.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = tasks.pb.swift; sourceTree = "<group>"; };
 		DAADA3331F8D13DD007D0E7C /* data.pb.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = data.pb.swift; sourceTree = "<group>"; };
 		DAADA3341F8D13DD007D0E7C /* user.pb.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = user.pb.swift; sourceTree = "<group>"; };
+		DAADA3381F8DCC54007D0E7C /* TasksViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasksViewController.swift; sourceTree = "<group>"; };
+		DAADA33B1F8DD1B8007D0E7C /* TaskCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskCell.swift; sourceTree = "<group>"; };
 		E698C418353A3DBF7030E6E9 /* Pods_Todo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Todo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -88,6 +92,7 @@
 		DA4364871F8BCC7F0050132C /* Todo */ = {
 			isa = PBXGroup;
 			children = (
+				DAADA33A1F8DD1A5007D0E7C /* View */,
 				DA4E9DC91F8CCC970069F658 /* ProtoData */,
 				DA43649A1F8BCCC30050132C /* NetworkLayer */,
 				DA4364881F8BCC7F0050132C /* AppDelegate.swift */,
@@ -96,6 +101,7 @@
 				DA43648F1F8BCC7F0050132C /* Assets.xcassets */,
 				DA4364911F8BCC7F0050132C /* LaunchScreen.storyboard */,
 				DA4364941F8BCC7F0050132C /* Info.plist */,
+				DAADA3381F8DCC54007D0E7C /* TasksViewController.swift */,
 			);
 			path = Todo;
 			sourceTree = "<group>";
@@ -116,6 +122,14 @@
 				DAADA3341F8D13DD007D0E7C /* user.pb.swift */,
 			);
 			path = ProtoData;
+			sourceTree = "<group>";
+		};
+		DAADA33A1F8DD1A5007D0E7C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DAADA33B1F8DD1B8007D0E7C /* TaskCell.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -252,6 +266,8 @@
 				DA4364A81F8BDC800050132C /* Api.swift in Sources */,
 				DAADA3361F8D13DD007D0E7C /* data.pb.swift in Sources */,
 				DA43648B1F8BCC7F0050132C /* LoginViewController.swift in Sources */,
+				DAADA3391F8DCC55007D0E7C /* TasksViewController.swift in Sources */,
+				DAADA33C1F8DD1B8007D0E7C /* TaskCell.swift in Sources */,
 				DAADA3371F8D13DD007D0E7C /* user.pb.swift in Sources */,
 				DA4364891F8BCC7F0050132C /* AppDelegate.swift in Sources */,
 				DAADA3351F8D13DD007D0E7C /* tasks.pb.swift in Sources */,

@@ -6,9 +6,10 @@ app = Flask(__name__)
 
 
 # @app.route("/login/user/" , methods=['GET'])
-@app.route("/login/user", methods=['POST'])
+@app.route("/login/user", methods=['GET'])
 def log_in(): 
     admin_user =  admin()
+
     user_dict = request.args
     print user_dict
     user = user_pb2.User()
